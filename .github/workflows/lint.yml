@@ -9,7 +9,7 @@ on:
 
 jobs: 
   lint: # Name of the job
-    runs-on : ubuntu - latest # The job will run on the latest version of Ubuntu
+    runs-on : ubuntu-latest # The job will run on the latest version of Ubuntu
     steps: 
       - uses: actions/checkout@v4 
       - uses: actions/setup-python@v5
