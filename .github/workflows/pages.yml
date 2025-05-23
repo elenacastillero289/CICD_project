@@ -9,7 +9,7 @@ jobs:
     runs-on : ubuntu-latest # The job will run on the latest version of Ubuntu
     permissions:
       id-token: write
-      pages: wrtie
+      pages: write
     steps: 
       - uses: actions/checkout@v4 
       - name: Create artifact
