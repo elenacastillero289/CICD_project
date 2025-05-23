@@ -1,4 +1,4 @@
-name: "Lint Python code"
+name: "Testing"
 on:
   push: # Only execute pipeline on push to main branch
     branches:
